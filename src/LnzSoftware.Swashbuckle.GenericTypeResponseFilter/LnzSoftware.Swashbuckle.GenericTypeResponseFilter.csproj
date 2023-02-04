@@ -8,7 +8,7 @@
 	  <Authors>Antonio Lanzolla</Authors>
 	  <PackageProjectUrl>https://github.com/Lanz86/Swashbuckle-GenericTypeResponseFilter</PackageProjectUrl>
 	  <RepositoryUrl>https://github.com/Lanz86/Swashbuckle-GenericTypeResponseFilter</RepositoryUrl>
-      <Version>1.0.0.0</Version>
+      <Version>1.0.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
