@@ -23,7 +23,7 @@ namespace LnzSoftware.Swashbuckle.GenericTypeResponseFilter
             "text/json"
         };
 
-        public void Apply(OpenApiOperation operation, OperationFilterContext context)
+        public void Apply(OpenApiOperation operation, OperationFilterContext context) 
         {
             var returnType = context.MethodInfo.ReturnType;
             if (returnType.IsGenericType && returnType.GetGenericTypeDefinition() == typeof(Task<>))
