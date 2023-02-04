@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LnzSoftware.Swashbuckle.GenericTypeResponseFilter", "src\LnzSoftware.Swashbuckle.GenericTypeResponseFilter\LnzSoftware.Swashbuckle.GenericTypeResponseFilter.csproj", "{886D65C0-90C7-4ED5-A2FC-B7698860C1DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{69D1B000-07B6-4613-9B0D-17B4649EE1C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE0E8466-F939-486C-8EA6-4ED086116D81}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{54F0F21A-1392-46C9-ACC3-395303F87E6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{3525A263-3B18-471D-9453-C9A237AFC7A1}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\publish-nuget-pack.yml = .github\workflows\publish-nuget-pack.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{886D65C0-90C7-4ED5-A2FC-B7698860C1DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{886D65C0-90C7-4ED5-A2FC-B7698860C1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{886D65C0-90C7-4ED5-A2FC-B7698860C1DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{886D65C0-90C7-4ED5-A2FC-B7698860C1DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{886D65C0-90C7-4ED5-A2FC-B7698860C1DF} = {69D1B000-07B6-4613-9B0D-17B4649EE1C8}
+		{3525A263-3B18-471D-9453-C9A237AFC7A1} = {54F0F21A-1392-46C9-ACC3-395303F87E6E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3845527B-115B-4A85-AF49-B380FF3E05B1}
+	EndGlobalSection
+EndGlobal
