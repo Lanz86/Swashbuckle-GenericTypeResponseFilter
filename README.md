@@ -1,4 +1,4 @@
-# https-github.com-Lanz86-Swashbuckle-GenericTypeResponseFilter
+# Swashbuckle-GenericTypeResponseFilter
 Declare Generic not buildable Swagger Response
 
 If you have a generic not buildable type in response of api add in swagger configuration this filter with you generic concrate type
