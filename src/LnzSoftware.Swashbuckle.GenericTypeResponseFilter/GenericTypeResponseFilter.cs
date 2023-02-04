@@ -39,6 +39,7 @@ namespace LnzSoftware.Swashbuckle.GenericTypeResponseFilter
                 {
                     if (response.Key == StatusCodes.Status200OK.ToString())
                     {
+                        operation.Responses[StatusCodes.Status200OK.ToString()].Content.Clear();
                         var schema = context.SchemaGenerator.GenerateSchema(type, context.SchemaRepository);
                         foreach (var contentType in contentTypes)
                         {
